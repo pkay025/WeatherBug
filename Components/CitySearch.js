@@ -1,10 +1,10 @@
-import { StyleSheet, Text, View, ActivityIndicator, FlatList, Text, TextInput, TouchableOpacity } from "react-native";
-import React, { useState, useEffect } from "react";
+import { StyleSheet, View, ActivityIndicator, FlatList, Text, TextInput, TouchableOpacity } from "react-native";
+import { useState, useEffect } from "react";
 
 export default function CitySearch({onCitySelect}) {
-    const[searchText, setSearchText]= useState('')
-    const [cities, setCities]=useState([])
-    const[loading, setLoading]=useState(false)
+    const[ searchText, setSearchText ] = useState('')
+    const [ cities, setCities ] = useState([])
+    const[ loading, setLoading ] = useState(false)
     const handleSearchText =(text)=>{
       setSearchText(text)
     }

@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, Alert, ActivityIndicator } from "react-native";
-import React, { useState } from "react";
-import WeatherInfo from "./components/WeatherInfo";
-import CitySearch from "./components/CitySearch";
+import { useState } from "react";
+import WeatherInfo from "../Components/WeatherInfo";
+import CitySearch from "../Components/CitySearch";
 
 const API_KEY ='b89e1c25a017e0b7f26b12d8487455b8'
 
