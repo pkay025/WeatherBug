@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     marginVertical: 20,
-    color: '#333',
+    color: '#333'
   },
   loadingContainer: {
     flex: 1,
